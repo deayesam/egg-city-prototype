@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#080d18">
+  <title>Egg City | Prototype 0.1</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="game"></div>
+  <div id="hud">
+    <div class="brand"><span class="egg">◉</span><div><b>EGG CITY</b><small>PROTOTYPE 0.1</small></div></div>
+    <div class="stats"><span>₡ <b id="credits">100</b></span><span>JOB: <b id="job">UNASSIGNED</b></span></div>
+    <div id="message">Explore the city. Find the blue service kiosk.</div>
+    <div class="help">WASD / arrows to move · drag to look · E to interact</div>
+  </div>
+  <div id="crosshair">+</div>
+  <div id="mobile-controls">
+    <div id="stick-zone"><div id="stick"></div></div>
+    <button id="interact">INTERACT</button>
+    <div id="look-hint">Drag the right side to look around</div>
+  </div>
+  <div id="start-screen">
+    <div class="panel">
+      <div class="logo">EGG CITY</div>
+      <p>A small shared-world sandbox begins here.</p>
+      <p class="sub">Prototype 0.1 · Explore · Find work · Earn credits</p>
+      <button id="start">ENTER CITY</button>
+      <small>Best experienced in landscape mode.</small>
+    </div>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
